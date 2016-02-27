@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  
+  <title>Get Your Market Property Value!</title>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+
+<!-- STEP 1 -->
+<div class="step step-1">
+    <div class="vertical-align-wrap">
+    <div class="vertical-align vertical-align--middle">
+    <div class="row band">
+      <form id="form-search" method="get" onsubmit="return:false;">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+          <br />
+          <h1>How Much Is Your Property Worth?</h1>
+          <p>Get Your FREE Market Analysis Report Today!</p>
+          <div class="form-group" id="locationField">
+            <img src="img/search.png" class="btn-search cursor" style="float:right;" width="35" height="34" />
+            <input type="text" name="address" id="autocomplete" placeholder="Enter your address" onFocus="geolocate()" class="form-control input" />
+          </div>
+          <br />
+          <br />
+        </div>
+        <div class="col-xs-1"></div>
+      </form>
+    </div>
+    </div>
+    </div>
+</div>
+
+<!-- STEP 2 -->
+<div class="step step-2">
+  <div class="streetview"></div>
+  <div class="address"></div>
+  
+  <div class="row band">
+    <form id="form-value" method="get" onsubmit="return:false;">
+      <div class="col-xs-1"></div>
+      <div class="col-xs-10">
+        <br />
+        <h1>
+          Please help us with a few more details...
+        </h1>
+        <p>
+          We are almost ready to provide you with your
+          FREE full market analysis of your property...
+        </p>
+        <br />
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name" class="form-control max-350" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="email" placeholder="Email" class="form-control max-350" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="phone" placeholder="Phone" class="form-control max-350" />
+        </div>
+        <div class="form-group">
+          <label for="reason">Reason for Search</label><br />
+          <select name="reason" id="reason" class="form-control max-350">
+            <option value=""></option>
+            <option value="Just curious">Just curious</option>
+            <option value="Looking to sell in 1 month">Looking to sell in 1 month</option>
+            <option value="Looking to sell in 2 months">Looking to sell in 2 months</option>
+            <option value="Looking to sell in 3 months">Looking to sell in 3 months</option>
+            <option value="Looking to sell in 6-12 months">Looking to sell in 6-12 months</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <input type="hidden" name="address" id="address" />
+          <button type="button" class="btn btn-primary btn-step2">
+            <span class="glyphicon glyphicon-eye-open"></span>
+            View Market Value
+          </button>
+          <p>
+            <br />
+            <a href="index.html">Start search over &raquo;</a>
+          </p>
+        </div>
+      </div>
+      <div class="col-xs-1"></div>
+    </form>
+  </div>
+</div>
+
+<!-- STEP 3 -->
+<div class="step step-3">
+  <div class="row band">
+    <div class="col-xs-1"></div>
+    <div class="col-xs-10">
+      <br />
+      <h1>Congratulations!</h1>
+      <p>Your FREE Home Value Report was provided by...</p>
+      <br />
+      <div class="bio">
+        <p>
+          <a href="mailto:AKSELLSFLRE@gmail.com"><img src="img/adam.jpg" /></a>
+        </p>
+        <p>
+          <strong>Adam Kimbrell</strong><br />
+          <i>Realtor - REK Realty</i><br />
+          (727) 344-9625<br />
+          <a href="mailto:AKSELLSFLRE@gmail.com">AKSELLSFLRE@gmail.com</a>
+        </p>
+      </div>
+      <br />
+      <br />
+      <div class="chart chart-1"></div>
+      <br />
+      <div class="chart chart-2"></div>
+      <br />
+      <br />
+    </div>
+    <div class="col-xs-1"></div>
+  </div>
+</div>
+
+<div class="cms-hidden tmpl-loading">
+  <div class="loading">
+    <img src="img/loading.gif" class="img-rounded" />
+  </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/src/bootstrap.js"></script>
+<script src="src/jquery.extended.js"></script>
+<script src="src/common.js"></script>
+<script src="src/app.js"></script>
+<script src="src/google-autocomplete.js"></script>
+<script src="src/google-analytics.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNfvBQMUGeEws3_ov7aK5Myj0ew8TqMKM&signed_in=true&libraries=places&callback=initAutocomplete" async defer></script>
+
+</body>
+</html>
