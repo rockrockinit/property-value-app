@@ -1,6 +1,6 @@
 # Property-Value-App
 
-A single page application (SPA) that allows user to look up property values.
+A single page application (SPA) that allows users to look up property values.
 
 ### [View Demo &raquo;](http://www.edrodriguez.com/adam/)  
 
@@ -40,7 +40,7 @@ MIT
 
 ## About Me
 <a href="http://www.edrodriguez.com/"><img src="http://www.edrodriguez.com/img/icons/ed.png" align="left" style="margin:0px 40px 10px 0px" /></a>
-I am a Web Developer with experience in building both web and mobile solutions. This project allowed me to explore integrating the **Google Maps API** into a single page application.
+I am a Web Developer with experience in building both web and mobile solutions. This project allowed me to explore integrating the [Google Maps API](https://developers.google.com/maps/documentation/javascript/) into a single page application.
 
 [![LinkedIn](http://www.edrodriguez.com/img/icons/linkedin.gif)](https://www.linkedin.com/in/edhome)
 [![Twitter](http://www.edrodriguez.com/img/icons/twitter.gif)](https://twitter.com/edwinrodriguez)
