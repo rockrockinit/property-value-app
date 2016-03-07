@@ -6,7 +6,7 @@ A single page application (SPA) that allows users to look up property values.
 
 ##Overview
 
-This application works responsively on both mobile and desktop browsers. It utilizes the [Google Maps API](https://developers.google.com/maps/documentation/javascript/) for its address autocomplete lookup feature. I did this project pro bono for a colleague of mine so he could have an online presence and collect potential leads. The application consists of the 3 steps shown below.
+This application works responsively on both mobile and desktop browsers. It utilizes the [Google Maps API](https://developers.google.com/maps/documentation/javascript/) for its address autocomplete and the [RPR Broker AVM Widget](https://vimeo.com/115294913) for its property value lookups. I did this project pro bono for a colleague of mine so he could have an online presence and collect potential leads. The application consists of the 3 steps shown below.
 
 [![Mobile Screenshot](http://www.edrodriguez.com/adam/img/readme/screens.png)](http://www.edrodriguez.com/adam/)
 
@@ -22,8 +22,10 @@ This application works responsively on both mobile and desktop browsers. It util
 
 Dependencies are managed via bower. Here is a list of the main dependencies:
 
-* [jquery](https://api.jquery.com/) *1.12.0*
-* [bootstrap](http://bootstrapdocs.com/v3.3.6/docs/) *3.3.6*
+* [jQuery](https://api.jquery.com/) *1.12.0*
+* [Bootstrap](http://bootstrapdocs.com/v3.3.6/docs/) *3.3.6*
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/) *3.24.1*
+* [RPR Broker AVM Widget](https://vimeo.com/115294913)
 
 Use the following commands to install all dependancies & build sources:
 
